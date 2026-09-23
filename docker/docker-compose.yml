@@ -1,0 +1,20 @@
+# Fallback only. Run from the repo root:
+#   docker compose -f docker/docker-compose.yml build
+#   xhost +local:   (Linux host, for GUI apps)
+#   docker compose -f docker/docker-compose.yml up -d
+#   docker compose -f docker/docker-compose.yml exec ros2 bash
+services:
+  ros2:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: ros2-nav2-sim:jazzy
+    environment:
+      - DISPLAY=${DISPLAY}
+      - TURTLEBOT3_MODEL=burger
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ../ros2_ws:/root/ros2_ws
+    network_mode: host
+    stdin_open: true
+    tty: true
