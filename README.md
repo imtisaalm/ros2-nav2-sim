@@ -5,10 +5,6 @@ ROS 2 Jazzy + Gazebo Harmonic navigation simulation. Teleoperate a TurtleBot3, b
 
 ## Preview
 
-![TurtleBot3 Burger rendered by Gazebo Harmonic's rendering engine](docs/gazebo-turtlebot3.png)
-
-*TurtleBot3 Burger rendered by Gazebo Harmonic's rendering engine. A screenshot from a live simulator run is still to come; it must be captured on a machine with working network transport.*
-
 ![TurtleBot3 model in RViz2](docs/rviz-mapping.png)
 
 *The TurtleBot3 model in a live RViz2 session. A full mapping screenshot (live map plus laser scan from SLAM Toolbox) still needs to be captured during a mapping run.*
