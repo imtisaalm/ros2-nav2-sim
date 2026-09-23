@@ -1,6 +1,7 @@
 # ros2-nav2-sim
 
-ROS 2 Jazzy + Gazebo Harmonic navigation simulation. Teleoperate a TurtleBot3, build a map with SLAM Toolbox, then run autonomous waypoint missions with Nav2. Fully simulated, no hardware required.
+ROS 2 Jazzy + Gazebo Harmonic navigation simulation. Teleoperate a TurtleBot3, build a map with SLAM Toolbox, then run autonomous waypoint missions with Nav2. 
+
 
 ## What it does
 
